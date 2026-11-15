@@ -1,0 +1,2188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>BabyBjörn bouncer shortlist · Carousell Singapore</title>
+<meta name="description" content="74 active BabyBjörn bouncer listings on Carousell Singapore, under a year old, filtered for decent condition, with meet-up locations.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="BabyBjörn bouncers for a one-month-old · Carousell SG shortlist">
+<meta property="og:description" content="74 active listings under a year old, filtered for condition, with meet-up areas and prices.">
+<meta property="og:image" content="https://edensjw.github.io/babybjorn-bouncer-sg/og.png">
+<meta property="og:url" content="https://edensjw.github.io/babybjorn-bouncer-sg/">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root {
+    --ink:#1c1917; --muted:#6b6560; --line:#e7e2da; --bg:#fbf9f6; --card:#fff;
+    --sage:#4f6f52; --sage-soft:#eef3ec; --amber:#b45309; --amber-soft:#fdf3e7;
+    --radius:14px;
+    --shadow:0 1px 2px rgba(28,25,23,.04), 0 8px 24px -12px rgba(28,25,23,.18);
+  }
+  * { box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.55 ui-sans-serif,-apple-system,"Segoe UI",Inter,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased; }
+  a { color:inherit; }
+  .wrap { max-width:1180px; margin:0 auto; padding:0 24px; }
+
+  header.hero { background:linear-gradient(180deg,#f4f1ea 0%, #fbf9f6 100%); border-bottom:1px solid var(--line); padding:44px 0 34px; }
+  .eyebrow { font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--sage); font-weight:650; }
+  h1 { font-size:clamp(28px,4vw,42px); line-height:1.12; margin:10px 0 12px; letter-spacing:-.02em; }
+  h1 span { color:var(--sage); }
+  .lede { max-width:62ch; color:var(--muted); font-size:16.5px; margin:0 0 22px; }
+  .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:12px; margin-top:6px; }
+  .stat { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+  .stat b { display:block; font-size:22px; letter-spacing:-.01em; }
+  .stat span { font-size:12.5px; color:var(--muted); }
+
+  section { padding:40px 0; }
+  section + section { border-top:1px solid var(--line); }
+  h2 { font-size:22px; margin:0 0 6px; letter-spacing:-.01em; }
+  .sub { color:var(--muted); margin:0 0 22px; font-size:14.5px; }
+
+  .picks { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; }
+
+  .toolbar { position:sticky; top:0; z-index:20; background:rgba(251,249,246,.92); backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line); padding:12px 0; margin-bottom:24px; }
+  .toolbar .wrap { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+  input[type=search], select { font:inherit; font-size:14px; padding:9px 12px; border:1px solid var(--line);
+    border-radius:10px; background:#fff; color:var(--ink); }
+  input[type=search] { flex:1 1 240px; min-width:180px; }
+  .chip { display:inline-flex; align-items:center; gap:7px; font-size:13.5px; border:1px solid var(--line);
+    background:#fff; padding:8px 12px; border-radius:999px; cursor:pointer; user-select:none; }
+  .chip input { accent-color:var(--sage); }
+  .count { margin-left:auto; font-size:13px; color:var(--muted); }
+
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(285px,1fr)); gap:18px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden;
+    box-shadow:var(--shadow); display:flex; flex-direction:column; }
+  .card-pick { border-color:#cfdcc9; }
+  .thumb { position:relative; display:block; aspect-ratio:1/1; background:#f1ece4; }
+  .thumb img { width:100%; height:100%; object-fit:cover; display:block; }
+  .thumb-fallback { display:grid; place-items:center; height:100%; color:var(--muted); font-size:13px; }
+  .cond { position:absolute; left:10px; top:10px; font-size:11.5px; font-weight:650; letter-spacing:.02em;
+    padding:4px 9px; border-radius:999px; border:1px solid rgba(0,0,0,.06); }
+  .c-new { background:#e8f3ea; color:#245c33; }
+  .c-like { background:#eaf2ff; color:#1e4b8f; }
+  .c-light { background:#f4f1e6; color:#6b5a1e; }
+  .c-well { background:#fbeee6; color:#8a3d12; }
+
+  .card-body { padding:14px 15px 16px; display:flex; flex-direction:column; gap:8px; flex:1; }
+  .price-row { display:flex; align-items:baseline; gap:8px; }
+  .price { font-size:21px; font-weight:750; letter-spacing:-.02em; }
+  .tag { font-size:11px; padding:2px 7px; border-radius:6px; font-weight:600; }
+  .tag-deal { background:var(--sage-soft); color:var(--sage); }
+  .tag-warn { background:var(--amber-soft); color:var(--amber); }
+  .card h3 { font-size:15.5px; line-height:1.35; margin:0; font-weight:600; }
+  .card h3 a { text-decoration:none; }
+  .card h3 a:hover { text-decoration:underline; }
+  .why { margin:0; font-size:13px; color:var(--sage); background:var(--sage-soft); padding:8px 10px; border-radius:8px; }
+  .facts { list-style:none; margin:4px 0 0; padding:0; display:grid; gap:3px; font-size:13px; }
+  .facts li { display:grid; grid-template-columns:74px 1fr; gap:8px; }
+  .facts .k { color:var(--muted); }
+  .facts .v { color:#3a3531; }
+  .desc { font-size:13px; color:var(--muted); }
+  .desc summary { cursor:pointer; color:var(--sage); }
+  .desc p { margin:8px 0 0; }
+  .cta { margin-top:auto; padding-top:10px; font-size:13.5px; font-weight:600; color:var(--sage); text-decoration:none; }
+  .cta:hover { text-decoration:underline; }
+
+  .notes { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:18px; }
+  .note { background:#fff; border:1px solid var(--line); border-radius:12px; padding:18px 18px 16px; }
+  .note h3 { margin:0 0 8px; font-size:15px; }
+  .note p, .note li { font-size:13.8px; color:#3a3531; }
+  .note ul { margin:8px 0 0; padding-left:18px; }
+  .note li { margin-bottom:6px; }
+  footer { padding:30px 0 50px; color:var(--muted); font-size:12.5px; }
+  .empty { padding:40px; text-align:center; color:var(--muted); display:none; }
+  @media print { .toolbar { position:static; } .cta { display:none; } }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Carousell Singapore · shortlist</div>
+    <h1>BabyBjörn bouncers for a <span>one-month-old</span></h1>
+    <p class="lede">Every active BabyBjörn bouncer listing I could find on Carousell SG that is <strong>no older than about a year</strong>, filtered to decent condition, with the seller's stated meet-up location. Sorted so the best combination of condition, price and recency comes first.</p>
+    <div class="stats">
+      <div class="stat"><b>74</b><span>listings shortlisted</span></div>
+      <div class="stat"><b>S$74–S$165</b><span>typical asking range (25th–75th)</span></div>
+      <div class="stat"><b>S$130</b><span>median asking price</span></div>
+      <div class="stat"><b>27</b><span>photos from the last 90 days</span></div>
+      <div class="stat"><b>34</b><span>offer a meet-up</span></div>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Start with these</h2>
+    <p class="sub">The handful I would message first — good condition, sane price, and a real meet-up point.</p>
+    <div class="picks">
+      
+  <article class="card card-pick" data-cond="Like new" data-price="110" data-meetup="1" data-age="14" data-score="4.663">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-1471584712/" target="_blank" rel="noopener">
+      <img src="assets/1471584712.jpg" alt="Babybjorn bouncer" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$110</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-1471584712/" target="_blank" rel="noopener">Babybjorn bouncer</a></h3>
+      <p class="why">like new condition · meet-up at 874C Tampines Greenflora · photos posted 14 days ago</p>
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-01 · 14 days ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 14 days ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">874C Tampines Greenflora</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">tay168fore66763 · ★ 4.9 (8 reviews) · 4 years on Carousell</span></li>
+      </ul>
+      
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-1471584712/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card card-pick" data-cond="Like new" data-price="70" data-meetup="0" data-age="2" data-score="4.380">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-1473814390/" target="_blank" rel="noopener">
+      <img src="assets/1473814390.jpg" alt="BabyBjorn Bouncer Mesh" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$70</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-1473814390/" target="_blank" rel="noopener">BabyBjorn Bouncer Mesh</a></h3>
+      <p class="why">like new condition · below the median price · photos posted 2 days ago</p>
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-13 · 2 days ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed Yesterday</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Saloni S · ★ 3.7 (3 reviews) · 5 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Brand: BabyBjorn<br>- Color: Neutral beige<br>- Material: Breathable mesh (keeps baby cool)<br>- Features: Sturdy base with secure safety harness<br>- Portability: Lightweight and folds flat for easy storage/travel<br>- Condition: Clean and well-maintained, ready for immediate use</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-1473814390/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card card-pick" data-cond="Like new" data-price="100" data-meetup="0" data-age="1" data-score="4.438">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-1473907437/" target="_blank" rel="noopener">
+      <img src="assets/1473907437.jpg" alt="BabyBjorn Bouncer Mesh" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$100</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-1473907437/" target="_blank" rel="noopener">BabyBjorn Bouncer Mesh</a></h3>
+      <p class="why">like new condition · below the median price · photos posted yesterday</p>
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-14 · yesterday</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 22 hours ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">BuyFromMomma · ★ 4.8 (46 reviews) · 12 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Colour: Grey<br>- Material: Breathable mesh (keeps baby cool)<br>- Ergonomic design: Excellent support for head, neck, and back<br>- Portable: Lightweight and folds flat for easy storage/travel<br>- Easy maintenance: Removable, machine-washable fabric<br>- Condition: Well-maintained, perfect for hands-free time at home</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-1473907437/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card card-pick" data-cond="Like new" data-price="160" data-meetup="1" data-age="3" data-score="4.270">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-pink-1472650890/" target="_blank" rel="noopener">
+      <img src="assets/1472650890.jpg" alt="BabyBjorn Bouncer Bliss Mesh - Pink" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$160</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-pink-1472650890/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss Mesh - Pink</a></h3>
+      <p class="why">like new condition · meet-up at Tiong Bahru MRT Station (EW17) · photos posted 3 days ago</p>
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-12 · 3 days ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 1 week ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Tiong Bahru MRT Station (EW17)</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">Ed · ★ 5.0 (12 reviews) · 12 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Model: BabyBjorn Bouncer Bliss<br>- Colour: Soft Pink<br>- Material: Breathable mesh fabric for maximum comfort<br>- Ergonomic: Excellent support for baby's back, neck, and head<br>- Portable: Lightweight frame and folds flat for easy storage/travel<br>- Aesthetic: Clean, modern design that fits any home decor<br>- Condition: lightly used</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-pink-1472650890/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>All 74 shortlisted listings</h2>
+    <p class="sub">Filter by condition, price or meet-up. “Photos” is the date Carousell's image URL was generated, used as a proxy for when the listing was created; “Age” repeats the wording Carousell prints (“Listed 3 months ago”, or “Bumped 2 days ago” for an older post pushed back to the top).</p>
+
+    <div class="toolbar">
+      <div class="wrap">
+        <input type="search" id="q" placeholder="Search title or area…">
+        <select id="sort">
+          <option value="score">Sort: best overall</option>
+          <option value="price-asc">Price: low to high</option>
+          <option value="price-desc">Price: high to low</option>
+          <option value="age">Newest photos first</option>
+          <option value="cond">Condition: best first</option>
+        </select>
+        <label class="chip"><input type="checkbox" id="meetup"> Meet-up only</label>
+        <label class="chip"><input type="checkbox" id="good"> Like new / brand new</label>
+        <span class="count" id="count"></span>
+      </div>
+    </div>
+
+    <div class="grid" id="grid">
+      
+  <article class="card " data-cond="Like new" data-price="110" data-meetup="1" data-age="14" data-score="4.663">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-1471584712/" target="_blank" rel="noopener">
+      <img src="assets/1471584712.jpg" alt="Babybjorn bouncer" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$110</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-1471584712/" target="_blank" rel="noopener">Babybjorn bouncer</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-01 · 14 days ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 14 days ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">874C Tampines Greenflora</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">tay168fore66763 · ★ 4.9 (8 reviews) · 4 years on Carousell</span></li>
+      </ul>
+      
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-1471584712/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="100" data-meetup="0" data-age="1" data-score="4.438">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-1473907437/" target="_blank" rel="noopener">
+      <img src="assets/1473907437.jpg" alt="BabyBjorn Bouncer Mesh" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$100</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-1473907437/" target="_blank" rel="noopener">BabyBjorn Bouncer Mesh</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-14 · yesterday</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 22 hours ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">BuyFromMomma · ★ 4.8 (46 reviews) · 12 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Colour: Grey<br>- Material: Breathable mesh (keeps baby cool)<br>- Ergonomic design: Excellent support for head, neck, and back<br>- Portable: Lightweight and folds flat for easy storage/travel<br>- Easy maintenance: Removable, machine-washable fabric<br>- Condition: Well-maintained, perfect for hands-free time at home</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-1473907437/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="70" data-meetup="0" data-age="2" data-score="4.380">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-1473814390/" target="_blank" rel="noopener">
+      <img src="assets/1473814390.jpg" alt="BabyBjorn Bouncer Mesh" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$70</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-1473814390/" target="_blank" rel="noopener">BabyBjorn Bouncer Mesh</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-13 · 2 days ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed Yesterday</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Saloni S · ★ 3.7 (3 reviews) · 5 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Brand: BabyBjorn<br>- Color: Neutral beige<br>- Material: Breathable mesh (keeps baby cool)<br>- Features: Sturdy base with secure safety harness<br>- Portability: Lightweight and folds flat for easy storage/travel<br>- Condition: Clean and well-maintained, ready for immediate use</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-1473814390/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="120" data-meetup="0" data-age="10" data-score="4.377">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-mesh-bouncer-1472426179/" target="_blank" rel="noopener">
+      <img src="assets/1472426179.jpg" alt="BabyBjorn Mesh Bouncer" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$120</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-mesh-bouncer-1472426179/" target="_blank" rel="noopener">BabyBjorn Mesh Bouncer</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-05 · 10 days ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 1 week ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">kkiki · ★ 5.0 (9 reviews) · 13 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Colour: pink mesh &amp; black frame<br>- Condition: Pet-free &amp; smoke-free home<br>- Features: Breathable fabric, folds flat for travel/storage</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-mesh-bouncer-1472426179/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="85" data-meetup="1" data-age="180" data-score="4.295">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-black-1438753937/" target="_blank" rel="noopener">
+      <img src="assets/1438753937.jpg" alt="BabyBjorn Bouncer Balance Soft - Black" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$85</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-black-1438753937/" target="_blank" rel="noopener">BabyBjorn Bouncer Balance Soft - Black</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-05-19 · 6 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Bumped over 3 months ago <em>(older post, bumped)</em></span></li>
+        <li><span class="k">Meet-up</span><span class="v">1 Palm Road, East Palm</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">Dorys Bernal · ★ 5.0 (12 reviews) · 5 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- BabyBjorn Bouncer Balance Soft (Black)<br>- Includes original owner's manual<br>- Perfect for soothing and entertaining your baby<br>- no pets - no smoke house</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-black-1438753937/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="160" data-meetup="1" data-age="3" data-score="4.270">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-pink-1472650890/" target="_blank" rel="noopener">
+      <img src="assets/1472650890.jpg" alt="BabyBjorn Bouncer Bliss Mesh - Pink" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$160</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-pink-1472650890/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss Mesh - Pink</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-12 · 3 days ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 1 week ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Tiong Bahru MRT Station (EW17)</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">Ed · ★ 5.0 (12 reviews) · 12 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Model: BabyBjorn Bouncer Bliss<br>- Colour: Soft Pink<br>- Material: Breathable mesh fabric for maximum comfort<br>- Ergonomic: Excellent support for baby's back, neck, and head<br>- Portable: Lightweight frame and folds flat for easy storage/travel<br>- Aesthetic: Clean, modern design that fits any home decor<br>- Condition: lightly used</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-pink-1472650890/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="70" data-meetup="1" data-age="1" data-score="4.258">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-blue-mesh-1473948106/" target="_blank" rel="noopener">
+      <img src="assets/1473948106.jpg" alt="BabyBjorn Bouncer - Blue Mesh" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$70</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-blue-mesh-1473948106/" target="_blank" rel="noopener">BabyBjorn Bouncer - Blue Mesh</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-14 · yesterday</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 19 hours ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Soo Chow Walk</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">Gopinath Uthira · ★ 5.0 (22 reviews) · 10 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Not used very much and baby has now outgrown it. It’s a great item for younger bubs!<br>Pickup at Thomson.<br>Item washed and ready to use</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-blue-mesh-1473948106/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="100" data-meetup="1" data-age="13" data-score="4.231">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-baby-bouncer-light-blue-1461629320/" target="_blank" rel="noopener">
+      <img src="assets/1461629320.jpg" alt="BabyBjorn Baby Bouncer light blue" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$100</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-baby-bouncer-light-blue-1461629320/" target="_blank" rel="noopener">BabyBjorn Baby Bouncer light blue</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-02 · 13 days ago</span></li>
+        <li><span class="k">Age</span><span class="v">Bumped 19 hours ago <em>(older post, bumped)</em></span></li>
+        <li><span class="k">Meet-up</span><span class="v">Kallang</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">happygirl10 · ★ 5.0 (15 reviews) · 10 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- BabyBjorn Bouncer<br>- Color: Light Blue Mesh<br>- Suitable for: Newborn up to 2 years<br>- Features: Lightweight, Foldable, Breathable fabric, Washable fabric<br>- Ideal for: Easy transport and comfortable baby seating</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-baby-bouncer-light-blue-1461629320/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="50" data-meetup="1" data-age="54" data-score="4.139">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-black-1463453271/" target="_blank" rel="noopener">
+      <img src="assets/1463453271.jpg" alt="BabyBjorn Bouncer Balance Soft Black" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$50</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-black-1463453271/" target="_blank" rel="noopener">BabyBjorn Bouncer Balance Soft Black</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-09-22 · 2 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 1 month ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Dakota MRT Station (CC8)</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">Jerome Cheng · ★ 5.0 (9 reviews) · 12 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- BabyBjorn bouncer in black<br>- Breathable mesh fabric<br>- Folds flat for easy storage and transport<br>- Suitable for babies from birth up to approx. 2 years old<br>- Keeps baby entertained and comfortable</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-black-1463453271/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="188" data-meetup="1" data-age="4" data-score="4.102">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-grey-1473470702/" target="_blank" rel="noopener">
+      <img src="assets/1473470702.jpg" alt="BabyBjorn Bouncer Mesh - Grey" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$188</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-grey-1473470702/" target="_blank" rel="noopener">BabyBjorn Bouncer Mesh - Grey</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-11 · 4 days ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 3 days ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Telok Blangah Road</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">MavKaren · ★ 5.0 (193 reviews) · 6 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Model: BabyBjorn Bouncer (Grey Mesh)<br>- Condition: Clean and well-maintained (lightly used by one child)<br>- Features: Breathable fabric, ergonomic back/neck support<br>- Portability: Folds flat for travel; includes black storage bag<br>- Convenience: Lightweight, easy to move between rooms, keeps baby occupied<br>- Collection from Telok Blangah</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-grey-1473470702/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="85" data-meetup="1" data-age="297" data-score="4.032">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-leopard-print-1417049627/" target="_blank" rel="noopener">
+      <img src="assets/1417049627.jpg" alt="BabyBjorn Bouncer - Leopard Print" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$85</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-leopard-print-1417049627/" target="_blank" rel="noopener">BabyBjorn Bouncer - Leopard Print</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-01-22 · 10 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Punggol MRT/LRT Interchange (NE17/PTC) · self collection only</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">Legensz · ★ 5.0 (9 reviews) · 13 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Features a stylish leopard print design. The bouncer is clean and ready for use. Perfect for soothing and entertaining your baby. Easy to clean and store.</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-leopard-print-1417049627/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="74" data-meetup="1" data-age="107" data-score="4.019">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-grey-1452938461/" target="_blank" rel="noopener">
+      <img src="assets/1452938461.jpg" alt="BabyBjorn Bouncer - Grey" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$74</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-grey-1452938461/" target="_blank" rel="noopener">BabyBjorn Bouncer - Grey</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-07-31 · 4 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">hillV2</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">Kaze Ito · ★ 5.0 (5 reviews) · 3 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Folds for storage. Keeps baby happy and calm.</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-grey-1452938461/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="110" data-meetup="0" data-age="2" data-score="4.006">
+    <a class="thumb" href="https://www.carousell.sg/p/baby-bjorn-bouncer-bliss-mesh-pink-1473743930/" target="_blank" rel="noopener">
+      <img src="assets/1473743930.jpg" alt="Baby bjorn Bouncer Bliss Mesh pink" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$110</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/baby-bjorn-bouncer-bliss-mesh-pink-1473743930/" target="_blank" rel="noopener">Baby bjorn Bouncer Bliss Mesh pink</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-13 · 2 days ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed Yesterday</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">littleblueboat · ★ 5.0 (217 reviews) · 14 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Great for young babies! Gently used, clean with no defects. Beautiful pink colour! My baby has grown up so it’s time for it to find a new home.<br>Self collect at Toa Payoh East or via Carousell delivery.<br>- Brand: BABYBJÖRN<br>- Colour: Dusty Pink<br>- Material: Breathable mesh fabric for maximum comfort<br>- Features: Adjustable recline settings for resting or playing<br>- Portability: Sturdy frame folds flat for easy storage and travel<br>- Safety: Secure harness included<br>- Condition: Well-maintained, clean, and ready for use</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/baby-bjorn-bouncer-bliss-mesh-pink-1473743930/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="70" data-meetup="1" data-age="317" data-score="3.987">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-only-1412644665/" target="_blank" rel="noopener">
+      <img src="assets/1412644665.jpg" alt="BabyBjorn Bouncer Bliss Mesh only" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$70</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-only-1412644665/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss Mesh only</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-01-02 · 10 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Damai LRT Station (PE7) · weekends only</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">rogerw · ★ 5.0 (12 reviews) · 12 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>-  BabyBjorn Bouncer Bliss Mesh</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-only-1412644665/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="165" data-meetup="0" data-age="4" data-score="3.984">
+    <a class="thumb" href="https://www.carousell.sg/p/authentic-babybj%C3%B6rn-babybjorn-baby-bouncer-bliss-mesh-grey-color-1473435236/" target="_blank" rel="noopener">
+      <img src="assets/1473435236.jpg" alt="Authentic BabyBjörn BabyBjorn Baby Bouncer Bliss Mesh / Grey Color" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$165</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/authentic-babybj%C3%B6rn-babybjorn-baby-bouncer-bliss-mesh-grey-color-1473435236/" target="_blank" rel="noopener">Authentic BabyBjörn BabyBjorn Baby Bouncer Bliss Mesh / Grey Color</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-11 · 4 days ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 3 days ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Kristin 70 · ★ 5.0 (521 reviews) · 7 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Brand New Price at $399. Letting go less than half price in good condition.<br>• Very rarely used.<br>• Very good condition like new, and no defects.<br>• Light Grey Color<br>• Breathable mesh fabric (machine washable &amp; quick-drying)<br>• Ergonomic design: Proper support for baby’s back, neck, and head<br>• Natural bounce: Powered entirely by your baby’s movements<br>• Portable: Compact and flat-folding for easy storage and travel</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/authentic-babybj%C3%B6rn-babybjorn-baby-bouncer-bliss-mesh-grey-color-1473435236/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="150" data-meetup="0" data-age="57" data-score="3.973">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-1462712997/" target="_blank" rel="noopener">
+      <img src="assets/1462712997.jpg" alt="BabyBjorn Bouncer Bliss Mesh" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$150</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-1462712997/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss Mesh</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-09-19 · 2 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 1 month ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">likeaboss789 · ★ 5.0 (60 reviews) · 13 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>BabyBjorn bouncer in dusty pink.<br>Like new condition. My LO doesn't like to sit on it<br>Selling it to the nxt lucky baby<br>Self collection at 315B Punggol Way.</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-1462712997/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="55" data-meetup="1" data-age="143" data-score="3.938">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-in-quilted-confetti-design-1445917212/" target="_blank" rel="noopener">
+      <img src="assets/1445917212.jpg" alt="BabyBjorn Bouncer in quilted confetti design" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$55</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-in-quilted-confetti-design-1445917212/" target="_blank" rel="noopener">BabyBjorn Bouncer in quilted confetti design</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-06-25 · 5 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Blk 39 Cambridge Road · Novena MRT Station (NS20)</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">bubbee · ★ 5.0 (185 reviews) · 13 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- BabyBjorn bouncer<br>- Soft polka dot fabric<br>- Secure 3-point harness<br>- Removable and washable fabric<br>- In great condition. No tears at all and no damage<br>- Just some discoloration as seen in the picture</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-in-quilted-confetti-design-1445917212/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="50" data-meetup="0" data-age="64" data-score="3.866">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-1461124202/" target="_blank" rel="noopener">
+      <img src="assets/1461124202.jpg" alt="BabyBjorn Bouncer" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$50</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-1461124202/" target="_blank" rel="noopener">BabyBjorn Bouncer</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-09-12 · 2 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 2 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">H · ★ 5.0 (195 reviews) · 12 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Cream colored bouncer<br>- Fun polka dot pattern<br>- Quilted fabric for extra comfort<br>- Easy to attach and remove<br>- Keeps bouncer clean and fresh</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-1461124202/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="140" data-meetup="1" data-age="82" data-score="3.812">
+    <a class="thumb" href="https://www.carousell.sg/p/baby-bjorn-bouncer-1457558128/" target="_blank" rel="noopener">
+      <img src="assets/1457558128.jpg" alt="Baby Bjorn Bouncer" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$140</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/baby-bjorn-bouncer-1457558128/" target="_blank" rel="noopener">Baby Bjorn Bouncer</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-08-25 · 3 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 2 weeks ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Singapore</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">Bong🦄 Bong · ★ 5.0 (105 reviews) · 14 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>As good as new condition. Baby used less than 20 times as we got a few bouncers. 😅<br>Self collect at sembawang</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/baby-bjorn-bouncer-1457558128/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Well used" data-price="70" data-meetup="1" data-age="12" data-score="3.793">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-baby-bouncer-grey-1471880053/" target="_blank" rel="noopener">
+      <img src="assets/1471880053.jpg" alt="BabyBjorn Baby Bouncer Grey" loading="lazy">
+      <span class="cond c-well">Well used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$70</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-baby-bouncer-grey-1471880053/" target="_blank" rel="noopener">BabyBjorn Baby Bouncer Grey</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-03 · 12 days ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 1 week ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Mutiara Crest</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">hitheredollface · ★ 5.0 (38 reviews) · 13 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Authentic BabyBjorn baby bouncer in a stylish neutral grey<br>- Soft fabric seat with a secure integrated harness and buttons<br>- Sturdy dark grey base equipped with a non-slip rubber edge<br>- Powered naturally by your baby's own movements (no batteries needed)<br>- Folds completely flat for convenient storage and travel<br>- Clean condition, well-maintained, and ready for use<br>Fabric has slight pilling on the seat but other than that in great condition. Our newborn loved it and would take plenty of naps it in. You can step on the bottom fabric to rock the bouncer. Pet and smoke free household.</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-baby-bouncer-grey-1471880053/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="120" data-meetup="0" data-age="84" data-score="3.771">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-grey-mesh-1457222938/" target="_blank" rel="noopener">
+      <img src="assets/1457222938.jpg" alt="BabyBjorn Bouncer Grey Mesh" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$120</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-grey-mesh-1457222938/" target="_blank" rel="noopener">BabyBjorn Bouncer Grey Mesh</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-08-23 · 3 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 2 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">see listing</span></li>
+        <li><span class="k">Seller</span><span class="v">ioseg · ★ 5.0 (31 reviews) · 10 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- BabyBjorn Grey Mesh Bouncer<br>- Comfortable ergonomic design<br>- Breathable mesh fabric<br>- Black base<br>- Minor dust marks on fabric<br>- Good working condition</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-grey-mesh-1457222938/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="100" data-meetup="0" data-age="112" data-score="3.753">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-1452001897/" target="_blank" rel="noopener">
+      <img src="assets/1452001897.jpg" alt="Babybjorn bouncer" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$100</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-1452001897/" target="_blank" rel="noopener">Babybjorn bouncer</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-07-26 · 4 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">get legit · ★ 4.9 (55 reviews) · 13 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>No nego 100 arrange own delivery or use caroudelivery. No flaws all purchase is final no refunds, just because you hate your purchase does not mean you need to make my life difficult.</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-1452001897/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="160" data-meetup="1" data-age="237" data-score="3.744">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-dusty-pink-1427938232/" target="_blank" rel="noopener">
+      <img src="assets/1427938232.jpg" alt="BabyBjorn Bouncer Bliss - Dusty Pink" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$160</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-dusty-pink-1427938232/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss - Dusty Pink</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-03-23 · 8 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Woodleigh MRT Station (NE11)</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">Jean K · ★ 5.0 (21 reviews) · 14 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Retail price $380<br>Still in good condition</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-dusty-pink-1427938232/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="150" data-meetup="0" data-age="143" data-score="3.735">
+    <a class="thumb" href="https://www.carousell.sg/p/baby-bjorn-baby-bouncer-1445869875/" target="_blank" rel="noopener">
+      <img src="assets/1445869875.jpg" alt="Baby Bjorn baby bouncer" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$150</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/baby-bjorn-baby-bouncer-1445869875/" target="_blank" rel="noopener">Baby Bjorn baby bouncer</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-06-25 · 5 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Sonal Tiwari · ★ 4.1 (9 reviews) · 8 years on Carousell</span></li>
+      </ul>
+      
+      <a class="cta" href="https://www.carousell.sg/p/baby-bjorn-baby-bouncer-1445869875/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="100" data-meetup="0" data-age="12" data-score="3.733">
+    <a class="thumb" href="https://www.carousell.sg/p/bouncer-babybjorn-1471920237/" target="_blank" rel="noopener">
+      <img src="assets/1471920237.jpg" alt="Bouncer BabyBjorn" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$100</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/bouncer-babybjorn-1471920237/" target="_blank" rel="noopener">Bouncer BabyBjorn</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-03 · 12 days ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 1 week ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">fannyetthomas · 4 months on Carousell</span></li>
+      </ul>
+      
+      <a class="cta" href="https://www.carousell.sg/p/bouncer-babybjorn-1471920237/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="120" data-meetup="0" data-age="104" data-score="3.726">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-mesh-bouncer-1453567537/" target="_blank" rel="noopener">
+      <img src="assets/1453567537.jpg" alt="BabyBjorn mesh bouncer" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$120</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-mesh-bouncer-1453567537/" target="_blank" rel="noopener">BabyBjorn mesh bouncer</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-08-03 · 3 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Fei Tutu · ★ 5.0 (10 reviews) · 7 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Selling one for $120<br>Selling both for $100 each<br>Collections you may like<br>Home Upgrade Buys<br>Durable Outdoor Living</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-mesh-bouncer-1453567537/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="120" data-meetup="1" data-age="220" data-score="3.715">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-grey-beige-1430998878/" target="_blank" rel="noopener">
+      <img src="assets/1430998878.jpg" alt="BabyBjorn Bouncer Mesh - Grey- Beige" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$120</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-grey-beige-1430998878/" target="_blank" rel="noopener">BabyBjorn Bouncer Mesh - Grey- Beige</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-04-09 · 7 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">3 Orchard By-The-Park</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">Pogk 234 · ★ 5.0 (1 review) · 4 years on Carousell</span></li>
+      </ul>
+      
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-grey-beige-1430998878/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="60" data-meetup="0" data-age="134" data-score="3.709">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-1447582366/" target="_blank" rel="noopener">
+      <img src="assets/1447582366.jpg" alt="BabyBjorn Bouncer Balance Soft" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$60</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-1447582366/" target="_blank" rel="noopener">BabyBjorn Bouncer Balance Soft</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-07-04 · 4 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 2 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Elsie 5555 · ★ 5.0 (14 reviews) · 9 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- BabyBjorn bouncer in black and beige<br>- Breathable mesh fabric<br>- Adjustable harness for safety<br>- Folds flat for easy storage<br>- Keeps baby entertained and comfortable<br>- Some signs of wear, but fully functional<br>- Self collection  @ sengkang</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-1447582366/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="60" data-meetup="0" data-age="140" data-score="3.695">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-grey-1446386280/" target="_blank" rel="noopener">
+      <img src="assets/1446386280.jpg" alt="BabyBjorn Bouncer Grey" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$60</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-grey-1446386280/" target="_blank" rel="noopener">BabyBjorn Bouncer Grey</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-06-28 · 5 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 1 month ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Anna Lewis · ★ 5.0 (6 reviews) · 4 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Gently used BabyBjorn bouncer in grey.<br>- Folds flat for easy storage and transport.<br>- Soft and comfortable fabric for baby's comfort.<br>- Keeps your little one entertained and safe.<br>- Easy to clean fabric.</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-grey-1446386280/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="230" data-meetup="1" data-age="118" data-score="3.672">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-ergonomic-baby-bouncer-grey-beige-mesh-1450868889/" target="_blank" rel="noopener">
+      <img src="assets/1450868889.jpg" alt="BabyBjorn Bouncer Bliss Ergonomic Baby Bouncer Grey Beige Mesh" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$230</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-ergonomic-baby-bouncer-grey-beige-mesh-1450868889/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss Ergonomic Baby Bouncer Grey Beige Mesh</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-07-20 · 4 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Bumped 3 weeks ago <em>(older post, bumped)</em></span></li>
+        <li><span class="k">Meet-up</span><span class="v">Car Park | Bedok Mall · Bedok Mall</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">Angela Tan · ★ 5.0 (23 reviews) · 13 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>lightly used as spare.<br>- BabyBjorn Bouncer Bliss in Grey Beige Mesh with Light Grey Frame<br>- Ergonomic design with natural, baby-powered rocking<br>- Suitable for babies aged 0-2 years (3.5kg - 13kg)<br>- Compact and easy to fold for convenient storage<br>- Multiple adjustable positions for comfort<br>- Soft, modern design made in Sweden</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-ergonomic-baby-bouncer-grey-beige-mesh-1450868889/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Well used" data-price="40" data-meetup="1" data-age="60" data-score="3.670">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-baby-bouncer-balance-soft-grey-1462261580/" target="_blank" rel="noopener">
+      <img src="assets/1462261580.jpg" alt="BabyBjorn Baby Bouncer Balance Soft Grey" loading="lazy">
+      <span class="cond c-well">Well used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$40</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-baby-bouncer-balance-soft-grey-1462261580/" target="_blank" rel="noopener">BabyBjorn Baby Bouncer Balance Soft Grey</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-09-16 · 2 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 1 month ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Meyer road</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">dawarn22201 · ★ 4.7 (7 reviews) · 4 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- BabyBjorn bouncer in grey<br>- Soft, comfortable fabric for baby<br>- Adjustable harness for safety<br>- Folds flat for easy storage<br>- Keeps baby entertained and secure<br>- Easy to clean material</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-baby-bouncer-balance-soft-grey-1462261580/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="180" data-meetup="0" data-age="109" data-score="3.658">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-1452633678/" target="_blank" rel="noopener">
+      <img src="assets/1452633678.jpg" alt="BabyBjorn Bouncer Bliss - mesh" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$180</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-1452633678/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss - mesh</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-07-29 · 4 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">K I · ★ 5.0 (3 reviews) · 8 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Dusty Pink Color<br>Like new condition, no scratches, no stains</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-1452633678/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="150" data-meetup="1" data-age="119" data-score="3.644">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer%E2%80%99-black-mesh-1450569747/" target="_blank" rel="noopener">
+      <img src="assets/1450569747.jpg" alt="BabyBjorn Bouncer’ Black Mesh" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$150</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer%E2%80%99-black-mesh-1450569747/" target="_blank" rel="noopener">BabyBjorn Bouncer’ Black Mesh</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-07-19 · 4 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 2 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Pioneer Mall</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">dxstroy · ★ 5.0 (22 reviews) · 11 years on Carousell</span></li>
+      </ul>
+      
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer%E2%80%99-black-mesh-1450569747/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="150" data-meetup="1" data-age="118" data-score="3.641">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-mesh-grey-1450775983/" target="_blank" rel="noopener">
+      <img src="assets/1450775983.jpg" alt="BabyBjorn Bouncer Balance Soft Mesh Grey" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$150</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-mesh-grey-1450775983/" target="_blank" rel="noopener">BabyBjorn Bouncer Balance Soft Mesh Grey</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-07-20 · 4 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Singapore</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">Yobokies · ★ 4.9 (16 reviews) · 12 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- BabyBjorn bouncer in soft grey mesh<br>- Suitable as bouncer for babies up to 20 lbs<br>- Can be used as a chair for older/heavier babies (check photos for specific weight limits)<br>- Easy-to-clean fabric<br>- Folds flat for convenient storage<br>Comes with box<br>No defects<br>Pm to ask for more pictures</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-mesh-grey-1450775983/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="150" data-meetup="1" data-age="320" data-score="3.632">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-like-new-1412643806/" target="_blank" rel="noopener">
+      <img src="assets/1412643806.jpg" alt="BabyBjorn Bouncer Bliss - like new" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$150</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-like-new-1412643806/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss - like new</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2025-12-30 · 11 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Damai LRT Station (PE7) · weekends only</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">rogerw · ★ 5.0 (12 reviews) · 12 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>likely used<br>- BabyBjorn Bouncer Bliss in original packaging.<br>- likely used. Comes with all original parts and instructions.<br>- Perfect for newborns and infants. Easy to assemble and lightweight for portability.</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-like-new-1412643806/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="80" data-meetup="0" data-age="171" data-score="3.625">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-baby-bouncer-baby-bjorn-1440388042/" target="_blank" rel="noopener">
+      <img src="assets/1440388042.jpg" alt="BabyBjorn Baby Bouncer Baby Bjorn" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$80</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-baby-bouncer-baby-bjorn-1440388042/" target="_blank" rel="noopener">BabyBjorn Baby Bouncer Baby Bjorn</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-05-28 · 6 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">Ethan · ★ 5.0 (131 reviews) · 11 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Fabric is removable and machine washable.<br>Used for a few months and my son grew out of it, currently converted as a chair.</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-baby-bouncer-baby-bjorn-1440388042/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Well used" data-price="25" data-meetup="1" data-age="100" data-score="3.590">
+    <a class="thumb" href="https://www.carousell.sg/p/bjorn-baby-bouncer-1454321787/" target="_blank" rel="noopener">
+      <img src="assets/1454321787.jpg" alt="Bjorn Baby Bouncer" loading="lazy">
+      <span class="cond c-well">Well used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$25</span>
+        <span class="tag tag-deal">Below median</span>
+        <span class="tag tag-warn">Verify</span>
+      </div>
+      <h3><a href="https://www.carousell.sg/p/bjorn-baby-bouncer-1454321787/" target="_blank" rel="noopener">Bjorn Baby Bouncer</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-08-07 · 3 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Our Tampines Hub</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">lyd learning · ★ 4.9 (150 reviews) · 13 years on Carousell</span></li>
+      </ul>
+      
+      <a class="cta" href="https://www.carousell.sg/p/bjorn-baby-bouncer-1454321787/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="220" data-meetup="1" data-age="171" data-score="3.588">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-baby-bouncer-1440440866/" target="_blank" rel="noopener">
+      <img src="assets/1440440866.jpg" alt="BabyBjorn Baby Bouncer" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$220</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-baby-bouncer-1440440866/" target="_blank" rel="noopener">BabyBjorn Baby Bouncer</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-05-28 · 6 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Anchorvale Street</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">durrty soxx · ★ 5.0 (141 reviews) · 7 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Breathable mesh fabric for comfort<br>- Adjustable safety straps<br>- Folds flat for easy storage<br>- Keeps baby entertained and secure<br>- Simple to clean<br>- Used once only</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-baby-bouncer-1440440866/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="180" data-meetup="1" data-age="248" data-score="3.585">
+    <a class="thumb" href="https://www.carousell.sg/p/grey-babybjorn-bouncer-1426079924/" target="_blank" rel="noopener">
+      <img src="assets/1426079924.jpg" alt="Grey BabyBjorn Bouncer" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$180</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/grey-babybjorn-bouncer-1426079924/" target="_blank" rel="noopener">Grey BabyBjorn Bouncer</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-03-12 · 8 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Wheelock Place · Tanglin Mall</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">kitchenxena · ★ 4.8 (19 reviews) · 14 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Letting go of our second grey baby Bjorn, retail price $355 on pupsik. Almost good as new as my baby didn’t use much because doesn’t like to be strapped down.<br>I’m super OCD so we wash it weekly with all baby items even when it’s not used much.<br>Negotiable but pick up at doorstep or arrange courier please. Orchard area.</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/grey-babybjorn-bouncer-1426079924/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="140" data-meetup="0" data-age="74" data-score="3.580">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-1459245483/" target="_blank" rel="noopener">
+      <img src="assets/1459245483.jpg" alt="BabyBjorn Bouncer" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$140</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-1459245483/" target="_blank" rel="noopener">BabyBjorn Bouncer</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-09-02 · 2 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 2 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">HoeYin · ★ 5.0 (11 reviews) · 10 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- BabyBjorn bouncer<br>- Breathable mesh fabric<br>- Keeps baby entertained and secure<br>- Simple to clean<br>- From a smoke-free household<br>AI description above. Terribly flattered that it identified that my house was smoke-free.<br>But you already know what you’re looking for if you searched for the brand.<br>Baby has evolved to a stage where bouncing (at least by simple mechanical means), no longer entertains her. To be honest I doubt it ever has, which explains why its still in pretty good condition.<br>Selling now to partially fund my wife’s addiction of blending broccoli and threadfin fish for our baby.<br>Self collect from Bishan. Yes, it’s a Bishan Babybjorn Bouncer.</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-1459245483/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Well used" data-price="99" data-meetup="0" data-age="7" data-score="3.554">
+    <a class="thumb" href="https://www.carousell.sg/p/baby-bjorn-bouncer-1472907799/" target="_blank" rel="noopener">
+      <img src="assets/1472907799.jpg" alt="Baby Bjorn Bouncer" loading="lazy">
+      <span class="cond c-well">Well used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$99</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/baby-bjorn-bouncer-1472907799/" target="_blank" rel="noopener">Baby Bjorn Bouncer</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-08 · 7 days ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 6 days ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">mintealeaf · ★ 5.0 (16 reviews) · 13 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>$99<br>If Self-collection, Price is negotiable!</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/baby-bjorn-bouncer-1472907799/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="150" data-meetup="0" data-age="56" data-score="3.531">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-navy-blue-mesh-1462914442/" target="_blank" rel="noopener">
+      <img src="assets/1462914442.jpg" alt="BabyBjorn Bouncer Balance Soft Navy Blue Mesh" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$150</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-navy-blue-mesh-1462914442/" target="_blank" rel="noopener">BabyBjorn Bouncer Balance Soft Navy Blue Mesh</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-09-20 · 2 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 1 month ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">reghuang · ★ 4.9 (76 reviews) · 13 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- BabyBjorn bouncer in navy blue mesh<br>- Ergonomic design for proper support (back, neck, head)<br>- Lightweight and portable<br>- Folds flat for easy storage<br>- Keeps baby entertained and comfortable</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-navy-blue-mesh-1462914442/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="150" data-meetup="0" data-age="258" data-score="3.521">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-chair-1424182588/" target="_blank" rel="noopener">
+      <img src="assets/1424182588.jpg" alt="BabyBjorn Bouncer chair" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$150</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-chair-1424182588/" target="_blank" rel="noopener">BabyBjorn Bouncer chair</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-03-02 · 8 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Bumped over 3 months ago <em>(older post, bumped)</em></span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Moonlim · ★ 5.0 (23 reviews) · 3 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Used for only one month.<br>Features a stylish leopard print design. Easy to clean and folds flat for storage. Provides a safe and comfortable space for your baby to relax and play. Perfect for newborns and up.<br>Original price 399$<br>Check my other items. I have a new mesh in a different color (blue) available , can be switched .<br>Add a Baby Bjorn Bouncer Googly Eyes Toy for only 40$ if you take the chair , can buy separately as well</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-chair-1424182588/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="69" data-meetup="0" data-age="113" data-score="3.506">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-1451787781/" target="_blank" rel="noopener">
+      <img src="assets/1451787781.jpg" alt="BabyBjorn Bouncer Balance Soft" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$69</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-1451787781/" target="_blank" rel="noopener">BabyBjorn Bouncer Balance Soft</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-07-25 · 4 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Min · 6 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- BabyBjorn Bouncer<br>- Color: Dark Grey &amp; White<br>- Breathable Mesh Fabric<br>- Adjustable Safety Harness<br>- Lightweight &amp; Portable<br>- Keeps baby entertained &amp; comfortable<br>- Easy to Clean<br>- Suitable for Newborns and up</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-1451787781/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="100" data-meetup="0" data-age="231" data-score="3.490">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-black-1429028692/" target="_blank" rel="noopener">
+      <img src="assets/1429028692.jpg" alt="BabyBjorn Bouncer Bliss Mesh - Black" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$100</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-black-1429028692/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss Mesh - Black</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-03-29 · 8 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Hamstercheezels · ★ 5.0 (3 reviews) · 11 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Good as new<br>Pick up at TKK station or Duchess area</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-black-1429028692/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="168" data-meetup="1" data-age="131" data-score="3.489">
+    <a class="thumb" href="https://www.carousell.sg/p/free-delivery-babybjorn-baby-bjorn-bliss-mesh-bouncer-navy-1448157021/" target="_blank" rel="noopener">
+      <img src="assets/1448157021.jpg" alt="Free delivery Babybjorn Baby bjorn Bliss Mesh Bouncer - Navy" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$168</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/free-delivery-babybjorn-baby-bjorn-bliss-mesh-bouncer-navy-1448157021/" target="_blank" rel="noopener">Free delivery Babybjorn Baby bjorn Bliss Mesh Bouncer - Navy</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-07-07 · 4 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Toa Payoh MRT Station (NS19) · Lorong 5 Toa Payoh</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">rainbowafterrain_sg · ★ 5.0 (501 reviews) · 11 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Great conditions<br>Freshly washed . Cleaned and sanitised .<br>Colour : Navy<br>As per photos<br>Actual photos<br>Self pick up from TPY<br>Free delivery for Quick deal</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/free-delivery-babybjorn-baby-bjorn-bliss-mesh-bouncer-navy-1448157021/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Well used" data-price="120" data-meetup="1" data-age="131" data-score="3.475">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-baby-bjorn-mesh-bouncer-with-toy-1448155704/" target="_blank" rel="noopener">
+      <img src="assets/1448155704.jpg" alt="Babybjorn Baby Bjorn Mesh bouncer with toy" loading="lazy">
+      <span class="cond c-well">Well used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$120</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-baby-bjorn-mesh-bouncer-with-toy-1448155704/" target="_blank" rel="noopener">Babybjorn Baby Bjorn Mesh bouncer with toy</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-07-07 · 4 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Lorong 5 Toa Payoh</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">rainbowafterrain_sg · ★ 5.0 (501 reviews) · 11 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Well used<br>Washed and cleaned. Sanitised .<br>Colour : Anthracite<br>Free  babybjorn Toy<br>Self pick up from TPY<br>Free delivery</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-baby-bjorn-mesh-bouncer-with-toy-1448155704/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="50" data-meetup="1" data-age="354" data-score="3.464">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-black-1406311921/" target="_blank" rel="noopener">
+      <img src="assets/1406311921.jpg" alt="BabyBjorn Bouncer - Black" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$50</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-black-1406311921/" target="_blank" rel="noopener">BabyBjorn Bouncer - Black</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2025-11-26 · 1.0 years ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Compassvale Crescent</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">hidzepul31 · ★ 5.0 (6 reviews) · 8 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Had these for few years. But it’s lightly use as all my children didn’t like to sit on it. So it has been “on display” in my living room for the longest time. Heh.<br>The only minor is the rubber at the bottom has wore off. And some discolouration.</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-black-1406311921/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="120" data-meetup="0" data-age="217" data-score="3.461">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-navy-blue-1431626634/" target="_blank" rel="noopener">
+      <img src="assets/1431626634.jpg" alt="BabyBjorn Bouncer Balance Soft - Navy Blue" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$120</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-navy-blue-1431626634/" target="_blank" rel="noopener">BabyBjorn Bouncer Balance Soft - Navy Blue</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-04-12 · 7 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Kendra Tan · ★ 4.8 (26 reviews) · 14 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- BabyBjorn Bouncer Balance Soft<br>- Navy blue color<br>- Breathable mesh fabric<br>- Suitable for newborns and up<br>- Easy to fold and carry</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-balance-soft-navy-blue-1431626634/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="220" data-meetup="0" data-age="129" data-score="3.432">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-light-beige-mesh-1448567919/" target="_blank" rel="noopener">
+      <img src="assets/1448567919.jpg" alt="BabyBjorn Bouncer Bliss - Light Beige Mesh" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$220</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-light-beige-mesh-1448567919/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss - Light Beige Mesh</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-07-09 · 4 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Jq W · ★ 5.0 (13 reviews) · 12 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- BabyBjorn Bouncer<br>- Color: Light Beige Mesh<br>- Gentle rocking motion activated by baby's movements<br>- Ergonomic design for optimal back and neck support<br>- Lightweight and portable for on-the-go use<br>- Folds flat for convenient storage<br>- Ideal for both naps and playtime</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-light-beige-mesh-1448567919/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Well used" data-price="130" data-meetup="0" data-age="10" data-score="3.382">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-quilted-fabric-1472417327/" target="_blank" rel="noopener">
+      <img src="assets/1472417327.jpg" alt="BabyBjorn Bouncer Bliss Quilted Fabric" loading="lazy">
+      <span class="cond c-well">Well used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$130</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-quilted-fabric-1472417327/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss Quilted Fabric</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-05 · 10 days ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 1 week ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Arch · ★ 5.0 (59 reviews) · 13 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>-Retails for $300<br>- Model: BabyBjorn Bouncer in stylish dark grey quilted fabric<br>- Ergonomic Support: Designed to support baby's back, neck, and head<br>- Adjustable: 3 height positions for resting or playing<br>- Portable: Folds completely flat for easy storage and travel<br>- Easy Care: Fabric seat is removable and machine washable<br>- Safety First: Sturdy frame with non-slip base and secure built-in harness<br>- Benefit: Great for keeping baby safe while you get some hands-free time<br>-Please note that due to repeated washings (we kept it very clean as my baby has eczema) the fabric is faded. But you can buy the cover easily from amazon:)</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-quilted-fabric-1472417327/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Well used" data-price="12" data-meetup="0" data-age="87" data-score="3.374">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-light-beige-1456677908/" target="_blank" rel="noopener">
+      <img src="assets/1456677908.jpg" alt="BabyBjorn Bouncer Bliss - Light Beige" loading="lazy">
+      <span class="cond c-well">Well used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$12</span>
+        <span class="tag tag-deal">Below median</span>
+        <span class="tag tag-warn">Verify</span>
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-light-beige-1456677908/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss - Light Beige</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-08-20 · 3 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Bumped 3 weeks ago <em>(older post, bumped)</em></span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">myriad0purple · ★ 5.0 (3 reviews) · 2 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- BabyBjorn Bouncer<br>- Color: Light Beige<br>- Suitable for newborns and up<br>- Soft and breathable fabric<br>- Lightweight and portable<br>- Folds flat for easy storage<br>- Helps entertain or soothe baby<br>Self collect at my place in Punggol only</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-light-beige-1456677908/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="188" data-meetup="0" data-age="23" data-score="3.369">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-light-blue-1469801817/" target="_blank" rel="noopener">
+      <img src="assets/1469801817.jpg" alt="BabyBjorn Bouncer Bliss Mesh Light Blue" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$188</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-light-blue-1469801817/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss Mesh Light Blue</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-10-23 · 23 days ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 3 weeks ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">bt · ★ 5.0 (16 reviews) · 10 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Bought brand new at $399. Letting go half price. in good condition<br>- Authentic BabyBjorn baby bouncer in stylish light blue mesh<br>- Sturdy grey metal frame with secure safety harness<br>- Breathable fabric keeps your baby cool and comfortable<br>- Folds completely flat for easy storage and travel<br>- Removable fabric cover is easy to wash and clean<br>- Original safety warning tags still attached near the base<br>- Suitable for newborns and toddlers up to 2 years</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-light-blue-1469801817/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="180" data-meetup="0" data-age="47" data-score="3.357">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-balance-soft-mesh-baby-bouncer-blue-with-carrier-bag-bjorn-1464967208/" target="_blank" rel="noopener">
+      <img src="assets/1464967208.jpg" alt="BabyBjorn Balance Soft Mesh Baby Bouncer Blue with carrier bag ( Bjorn)" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$180</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-balance-soft-mesh-baby-bouncer-blue-with-carrier-bag-bjorn-1464967208/" target="_blank" rel="noopener">BabyBjorn Balance Soft Mesh Baby Bouncer Blue with carrier bag ( Bjorn)</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-09-29 · 2 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Bumped 1 month ago <em>(older post, bumped)</em></span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">mickies_corner · ★ 5.0 (98 reviews) · 11 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Model: BabyBjorn Baby Bouncer<br>- Color: Blue mesh fabric with dark grey base<br>- Portability: Folds completely flat for easy storage and travel<br>- Condition: Clean, well-maintained, and ready for your little one<br>- selling with travel/storage bag (retail price about $55</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-balance-soft-mesh-baby-bouncer-blue-with-carrier-bag-bjorn-1464967208/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Well used" data-price="40" data-meetup="1" data-age="210" data-score="3.348">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-black-and-white-gingham-1433014431/" target="_blank" rel="noopener">
+      <img src="assets/1433014431.jpg" alt="BabyBjorn Bouncer - Black and White Gingham" loading="lazy">
+      <span class="cond c-well">Well used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$40</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-black-and-white-gingham-1433014431/" target="_blank" rel="noopener">BabyBjorn Bouncer - Black and White Gingham</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-04-19 · 7 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Bumped 3 weeks ago <em>(older post, bumped)</em></span></li>
+        <li><span class="k">Meet-up</span><span class="v">Blk 218 Boon Lay Ave</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">Norix · ★ 5.0 (23 reviews) · 12 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Gently used BabyBjorn bouncer<br>- Clean and ready for use<br>- Perfect for soothing and entertaining your baby</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-black-and-white-gingham-1433014431/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Brand new" data-price="376" data-meetup="0" data-age="220" data-score="3.330">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-woven-petal-quilt-sand-gray-1431117845/" target="_blank" rel="noopener">
+      <img src="assets/1431117845.jpg" alt="BabyBjorn Bouncer Bliss, Woven, Petal Quilt, Sand Gray" loading="lazy">
+      <span class="cond c-new">Brand new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$376</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-woven-petal-quilt-sand-gray-1431117845/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss, Woven, Petal Quilt, Sand Gray</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-04-09 · 7 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">see listing</span></li>
+        <li><span class="k">Seller</span><span class="v">thecommongoods.sg · ★ 5.0 (4 reviews) · 6 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Our lightweight bouncers are easy to move around and take with you—they're a cozy place for your baby to play close by you while you have your hands free for a while. The natural rocking of a bouncer usually has a comforting effect on a very young baby. As your baby grows and learns how to control the rocking, the bouncer becomes even more fun and also stimulates your baby's balance and motor skills.<br>Our baby bouncer offers natural rocking generated by your baby’s own movements, unlike a battery or electrically powered baby swing. This means that our baby bouncer weighs less, making it easier to move around and take with you.<br>It can be used by newborns and up to the age of 2 (8lb-29lbs). In the early months, until your baby starts trying to sit up, you can use it as a bouncer. You can then use the bouncer as a comfortable child seat by simply reversing the fabric seat.can be used by newborns and up to the age of 2. In the early months, until your baby starts trying to sit up, you can use it as a bouncer. You can then use the bouncer as a comfortable child seat by simply reversing the fabric seat.<br>Our bouncer rocks gently when your baby waves their arms and legs. No batteries are required—our baby bouncer runs on pure fun!<br>The International Hip Dysplasia Institute acknowledges Bouncer Bliss as a hip-healthy product. This means that the baby bouncer provides the proper support for your baby’s hips.</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-woven-petal-quilt-sand-gray-1431117845/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Brand new" data-price="416" data-meetup="0" data-age="220" data-score="3.285">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-3d-jersey-light-beige-1431118656/" target="_blank" rel="noopener">
+      <img src="assets/1431118656.jpg" alt="BabyBjorn Bouncer Bliss, 3D Jersey, Light Beige" loading="lazy">
+      <span class="cond c-new">Brand new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$416</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-3d-jersey-light-beige-1431118656/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss, 3D Jersey, Light Beige</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-04-09 · 7 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">see listing</span></li>
+        <li><span class="k">Seller</span><span class="v">thecommongoods.sg · ★ 5.0 (4 reviews) · 6 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>No infant insert needed<br>Oeko Tex Certification<br>Jpma certified/recommended<br>Easy adjustment to 3 different positions<br>Lays flat for easy storage</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-3d-jersey-light-beige-1431118656/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="250" data-meetup="1" data-age="295" data-score="3.211">
+    <a class="thumb" href="https://www.carousell.sg/p/baby-bjorn-bouncer-1417460715/" target="_blank" rel="noopener">
+      <img src="assets/1417460715.jpg" alt="Baby Bjorn Bouncer" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$250</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/baby-bjorn-bouncer-1417460715/" target="_blank" rel="noopener">Baby Bjorn Bouncer</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-01-24 · 10 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Sengkang West Road</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">missdreyc · ★ 5.0 (60 reviews) · 13 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Like new. Whole set with box<br>Seldom use as I have 2 bjorn bouncer</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/baby-bjorn-bouncer-1417460715/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="225" data-meetup="0" data-age="217" data-score="3.206">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-dusty-pink-1431625993/" target="_blank" rel="noopener">
+      <img src="assets/1431625993.jpg" alt="BabyBjorn Bouncer Bliss - Dusty Pink" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$225</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-dusty-pink-1431625993/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss - Dusty Pink</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-04-12 · 7 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Kendra Tan · ★ 4.8 (26 reviews) · 14 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- BabyBjorn Bouncer Bliss in Dusty Pink<br>- Breathable mesh fabric<br>- Easy to clean<br>- Suitable for newborns and up<br>- From a smoke-free home<br>- Comes with Box<br>Selling because baby doesn’t like to sit in it.</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-dusty-pink-1431625993/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Well used" data-price="148" data-meetup="1" data-age="131" data-score="3.193">
+    <a class="thumb" href="https://www.carousell.sg/p/free-delivery-babybjorn-baby-bjorn-bliss-mesh-bouncer-grey-1448157483/" target="_blank" rel="noopener">
+      <img src="assets/1448157483.jpg" alt="Free delivery Babybjorn Baby bjorn bliss mesh bouncer - Grey" loading="lazy">
+      <span class="cond c-well">Well used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$148</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/free-delivery-babybjorn-baby-bjorn-bliss-mesh-bouncer-grey-1448157483/" target="_blank" rel="noopener">Free delivery Babybjorn Baby bjorn bliss mesh bouncer - Grey</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-07-07 · 4 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Toa Payoh MRT Station (NS19) · Lorong 5 Toa Payoh</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">rainbowafterrain_sg · ★ 5.0 (501 reviews) · 11 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Well used in good conditions .<br>Mesh fabric in excellent conditions .<br>Freshly washed . Cleaned and sanitised.<br>Colour : Grey<br>Self pick up from TPY<br>Free delivery for quick dealer</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/free-delivery-babybjorn-baby-bjorn-bliss-mesh-bouncer-grey-1448157483/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="149" data-meetup="1" data-age="229" data-score="3.154">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-navy-blue-1429356305/" target="_blank" rel="noopener">
+      <img src="assets/1429356305.jpg" alt="BabyBjorn Bouncer Mesh - Navy Blue" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$149</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-navy-blue-1429356305/" target="_blank" rel="noopener">BabyBjorn Bouncer Mesh - Navy Blue</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-03-31 · 8 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Choa Chu Kang Avenue 3</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">Pristine Look · 8 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>(Very good condition!)<br>The BabyBjorn Bouncer Bliss Mesh is a nifty lightweight baby bouncer that’s easy to move around the house to keep your little one close by. It folds flat and is so portable—it fits in the stroller basket—that you can easily take it with you to your parents’ or friends’ house! Fitted with a mesh fabric seat, ideal if you’ve a sweaty baby and/or you live in in a warm climate to keep bub comfortably cool.<br>The Bouncer Bliss gently rocks your baby as they kick their legs or wave their arms to soothe them as they play, rest and sleep.  It’s ergonomically designed that provides optimal support for baby’s back, neck and head, and the fabric seat helps to bub’s weight evenly. The fabric seat is easy to attach and remove for easy cleaning!<br>The BabyBjorn Bouncer Bliss is suitable from birth up to 13kg. It begins as a bouncer up to 9kg, and converts into a chair when your little one weighs more than 9kg and can sit up unaided. Simply turn the fabric seat around and use it as a chair up to 13kg.</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-mesh-navy-blue-1429356305/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="180" data-meetup="0" data-age="140" data-score="3.148">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-baby-bouncer-in-grey-1446452968/" target="_blank" rel="noopener">
+      <img src="assets/1446452968.jpg" alt="BabyBjorn Baby Bouncer in Grey" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$180</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-baby-bouncer-in-grey-1446452968/" target="_blank" rel="noopener">BabyBjorn Baby Bouncer in Grey</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-06-28 · 5 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">purplexdaisies · ★ 5.0 (31 reviews) · 14 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>removable cover has been washed (took out for photo taking only)<br>comes with the toy<br>toy can be removed and wash<br>well used by my kiddo who has outgrown<br>self collect or self arrange delivery</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-baby-bouncer-in-grey-1446452968/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="120" data-meetup="0" data-age="350" data-score="3.142">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-blue-1407080383/" target="_blank" rel="noopener">
+      <img src="assets/1407080383.jpg" alt="BabyBjorn Bouncer - blue" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$120</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-blue-1407080383/" target="_blank" rel="noopener">BabyBjorn Bouncer - blue</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2025-11-30 · 11 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">huanbao · ★ 4.4 (13 reviews) · 11 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Gently used BabyBjorn bouncer<br>- Clean fabric and sturdy frame<br>- Perfect for soothing your baby<br>- Easy to clean and store<br>- From a smoke-free home</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-blue-1407080383/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Well used" data-price="40" data-meetup="1" data-age="310" data-score="3.123">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-beige-1414497344/" target="_blank" rel="noopener">
+      <img src="assets/1414497344.jpg" alt="BabyBjorn Bouncer - Beige" loading="lazy">
+      <span class="cond c-well">Well used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$40</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-beige-1414497344/" target="_blank" rel="noopener">BabyBjorn Bouncer - Beige</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-01-09 · 10 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Sengkang General Hospital</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">mwencristal · ★ 5.0 (15 reviews) · 12 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>BabyBjorn Bouncer - well used and kept in storage<br>Can consider to purchase a new set of fabric sear or give this existing one a good wash.<br>Still in good working condition!</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-beige-1414497344/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Well used" data-price="140" data-meetup="1" data-age="205" data-score="3.096">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-anthracite-1434035068/" target="_blank" rel="noopener">
+      <img src="assets/1434035068.jpg" alt="BabyBjorn Bouncer - Anthracite" loading="lazy">
+      <span class="cond c-well">Well used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$140</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-anthracite-1434035068/" target="_blank" rel="noopener">BabyBjorn Bouncer - Anthracite</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-04-24 · 7 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Lavender MRT Station (EW11)</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">yew tee fook · ★ 5.0 (41 reviews) · 10 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Mesh fabric is breathable and comfortable for your baby. Easy to fold and carry. Suitable for newborns up to 2 years old. Comes from a smoke-free home. Mesh is still good no tears. As you can see from the 3rd picture, the culprit that took out the sticker.</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-anthracite-1434035068/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="165" data-meetup="1" data-age="322" data-score="3.079">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-dusty-pink-1412200561/" target="_blank" rel="noopener">
+      <img src="assets/1412200561.jpg" alt="BabyBjorn Bouncer Bliss - Dusty Pink" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$165</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-dusty-pink-1412200561/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss - Dusty Pink</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2025-12-28 · 11 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v">Tan Kah Kee MRT Station (DT8) · Orchard MRT Interchange (NS22/TE14)</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">cosmicgal · ★ 5.0 (13 reviews) · 13 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Lightly used in box<br>- BabyBjorn Bouncer Bliss in Dusty Pink<br>- Suitable for newborns and up<br>- Lightweight and portable<br>- Breathable mesh fabric<br>- Easy to clean and maintain</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-dusty-pink-1412200561/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="319" data-meetup="1" data-age="296" data-score="3.054">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-toy-bag-1417247153/" target="_blank" rel="noopener">
+      <img src="assets/1417247153.jpg" alt="BABYBJORN BOUNCER BLISS + TOY + BAG" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$319</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-toy-bag-1417247153/" target="_blank" rel="noopener">BABYBJORN BOUNCER BLISS + TOY + BAG</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-01-23 · 10 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Bumped over 3 months ago <em>(older post, bumped)</em></span></li>
+        <li><span class="k">Meet-up</span><span class="v">Siglap Link · Mondays to Fridays from 2 to 5pm</span></li>
+        <li><span class="k">Handover</span><span class="v">Meet-up</span></li>
+        <li><span class="k">Seller</span><span class="v">JP Poh · ★ 5.0 (43 reviews) · 11 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Brand: BabyBjorn<br>- Model: Bouncer Bliss<br>- Color: Dusty Pink<br>- Style: Mesh<br>- Inclusions: Bouncer Toy Googly Eyes (Pastel) + Transport Bag (Black)<br>- Original Retail Price: SGD 525<br>- Resale Price: SGD 319<br>- Original Product Description:<br>https://www.babybjorn.co.uk/products/baby-bouncers/bouncer-bliss/dusty-pink-mesh-light-grey/<br>https://www.babybjorn.co.uk/products/baby-bouncers/accessories-baby-bouncer/toy-for-bouncer-googly-eyes/pastel/<br>https://www.babybjorn.co.uk/products/baby-bouncers/accessories-baby-bouncer/transport-bag-for-baby-bouncer/black/</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-toy-bag-1417247153/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Well used" data-price="150" data-meetup="0" data-age="84" data-score="3.033">
+    <a class="thumb" href="https://www.carousell.sg/p/free-delivery-authentic-babybjorn-bouncer-balance-soft-bliss-mesh-black-1457147610/" target="_blank" rel="noopener">
+      <img src="assets/1457147610.jpg" alt="Free delivery - Authentic BabyBjorn Bouncer Balance Soft / Bliss (Mesh Black)" loading="lazy">
+      <span class="cond c-well">Well used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$150</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/free-delivery-authentic-babybjorn-bouncer-balance-soft-bliss-mesh-black-1457147610/" target="_blank" rel="noopener">Free delivery - Authentic BabyBjorn Bouncer Balance Soft / Bliss (Mesh Black)</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-08-23 · 3 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 2 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Mummy j❤️urney · ★ 5.0 (329 reviews) · 12 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>👶 Authentic BabyBjörn Bouncer Balance Soft / Bliss (Mesh Black)<br>Baby outgrown, so letting this go! Breathable mesh material, perfect for Singapore weather.<br>Price: $150 (with delivery)<br>Retail Price: &gt; $319<br>✔ 100% authentic BabyBjörn<br>✔ Well used condition &amp; fully functional<br>✔ Breathable 3D mesh (fast drying &amp; washable)<br>✔ Ergonomic support for newborn up to toddler<br>✔ Folds completely flat for easy storage<br>✔ What you see is what you get<br>📍 Self-collection at Jurong / Delivery via Carousell delivery available.<br>PM if interested 😊</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/free-delivery-authentic-babybjorn-bouncer-balance-soft-bliss-mesh-black-1457147610/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Well used" data-price="50" data-meetup="0" data-age="262" data-score="2.981">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-purple-1423471144/" target="_blank" rel="noopener">
+      <img src="assets/1423471144.jpg" alt="BabyBjorn Bouncer - Purple" loading="lazy">
+      <span class="cond c-well">Well used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$50</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-purple-1423471144/" target="_blank" rel="noopener">BabyBjorn Bouncer - Purple</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-02-26 · 9 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Lia S. · ★ 5.0 (61 reviews) · 13 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Self collect at Tampines Central 7.<br>I can swear by this bouncer, used baby bjorn bouncer for all 3 kids and it works every time. This is our spare set. Machine wash able, very easy to clean.</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-purple-1423471144/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="280" data-meetup="0" data-age="252" data-score="2.976">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-navy-blue-1425266094/" target="_blank" rel="noopener">
+      <img src="assets/1425266094.jpg" alt="BabyBjorn Bouncer - Navy Blue" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$280</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-navy-blue-1425266094/" target="_blank" rel="noopener">BabyBjorn Bouncer - Navy Blue</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-03-08 · 8 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">jackal123 · ★ 4.9 (33 reviews) · 13 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>Baby Bjorn Bouncer Bliss Mesh Dark Grey Frame - Navy Blue</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-navy-blue-1425266094/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Like new" data-price="200" data-meetup="0" data-age="278" data-score="2.928">
+    <a class="thumb" href="https://www.carousell.sg/p/baby-bjorn-bouncer-1420794108/" target="_blank" rel="noopener">
+      <img src="assets/1420794108.jpg" alt="Baby Bjorn Bouncer" loading="lazy">
+      <span class="cond c-like">Like new</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$200</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/baby-bjorn-bouncer-1420794108/" target="_blank" rel="noopener">Baby Bjorn Bouncer</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-02-10 · 9 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Nurul Aqilah Aqilah · 10 months on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>It looks new and the beige colour is aesthetic too. Selling this as my baby doesnt like to sit on it. Yes he is a velcro baby🙂‍↕️<br>Self pick up @ Tampines or Arrange your own courier.</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/baby-bjorn-bouncer-1420794108/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="150" data-meetup="0" data-age="338" data-score="2.896">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-grey-mesh-1409334923/" target="_blank" rel="noopener">
+      <img src="assets/1409334923.jpg" alt="BabyBjorn Bouncer - Grey Mesh" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$150</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-grey-mesh-1409334923/" target="_blank" rel="noopener">BabyBjorn Bouncer - Grey Mesh</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2025-12-12 · 11 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">declutter023 · ★ 4.9 (173 reviews) · 14 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Gently used BabyBjorn bouncer<br>- Breathable mesh fabric<br>- Easy to fold and transport<br>- Suitable for newborns and infants<br>- Clean and ready to use</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-grey-mesh-1409334923/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Well used" data-price="50" data-meetup="0" data-age="307" data-score="2.874">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-grey-1415045083/" target="_blank" rel="noopener">
+      <img src="assets/1415045083.jpg" alt="BabyBjorn Bouncer - Grey" loading="lazy">
+      <span class="cond c-well">Well used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$50</span>
+        <span class="tag tag-deal">Below median</span>
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-grey-1415045083/" target="_blank" rel="noopener">BabyBjorn Bouncer - Grey</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-01-12 · 10 months ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed over 3 months ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">lockhead · ★ 4.9 (52 reviews) · 13 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>- Clean fabric.<br>- Fully functional.<br>- Easy to fold and store.<br>- Perfect for soothing your baby.<br>- From a smoke and pet free home.<br>- Self collect from Tampines</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-grey-1415045083/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+
+  <article class="card " data-cond="Lightly used" data-price="500" data-meetup="0" data-age="10" data-score="2.805">
+    <a class="thumb" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-1472434637/" target="_blank" rel="noopener">
+      <img src="assets/1472434637.jpg" alt="BabyBjorn Bouncer Bliss Mesh" loading="lazy">
+      <span class="cond c-light">Lightly used</span>
+    </a>
+    <div class="card-body">
+      <div class="price-row">
+        <span class="price">S$500</span>
+        
+        
+      </div>
+      <h3><a href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-1472434637/" target="_blank" rel="noopener">BabyBjorn Bouncer Bliss Mesh</a></h3>
+      
+      <ul class="facts">
+        <li><span class="k">Photos</span><span class="v">2026-11-05 · 10 days ago</span></li>
+        <li><span class="k">Age</span><span class="v">Listed 1 week ago</span></li>
+        <li><span class="k">Meet-up</span><span class="v"><em>not offered</em></span></li>
+        <li><span class="k">Handover</span><span class="v">Delivery</span></li>
+        <li><span class="k">Seller</span><span class="v">Meghana Sridhar · ★ 5.0 (1 review) · 9 years on Carousell</span></li>
+      </ul>
+      <details class="desc"><summary>Seller's description</summary><p>$500 for TWO bouncers.<br>- Model: BabyBjorn Bouncer Bliss<br>- Colour: Anthracite<br>- Material: Breathable mesh fabric<br>- Ergonomic design: Provides excellent support for baby's head, neck, and back<br>- Features: Natural rocking motion to soothe baby<br>- Convenience: Folds flat for travel and storage<br>- Maintenance: Removable, machine-washable seat fabric<br>- Portability: Lightweight frame, easy to move around the house<br>Pick up from Katong</p></details>
+      <a class="cta" href="https://www.carousell.sg/p/babybjorn-bouncer-bliss-mesh-1472434637/" target="_blank" rel="noopener">View on Carousell →</a>
+    </div>
+  </article>
+    </div>
+    <div class="empty" id="empty">Nothing matches those filters.</div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>How this list was built</h2>
+    <div class="notes">
+      <div class="note">
+        <h3>Scope and age rule</h3>
+        <p>Search: “babybjorn bouncer” on carousell.sg, all 166 results, sorted recent. Kept only BabyBjörn bouncers themselves — no toy bars, fabric-only seats, bags or other brands — and dropped sold items.</p>
+        <p>Age is capped at roughly 12 months using two signals: Carousell's own “Listed … ago” line, and the date embedded in the listing photo's CDN path. Anything with photos older than ~13 months was cut, because older stock is more likely to be dusty or worn.</p>
+      </div>
+      <div class="note">
+        <h3>What the columns mean</h3>
+        <ul>
+          <li><strong>Photos</strong> — date in the image URL. Often equals listing creation; can be newer if the seller re-uploaded pictures.</li>
+          <li><strong>Age</strong> — “Listed 3 months ago” means posted then; “Bumped 2 days ago” means an older listing pushed back to the top, so treat its true age as unknown and rely on the photo date.</li>
+          <li><strong>Meet-up</strong> — the area the seller typed into the Deal method field, not a guaranteed handover spot.</li>
+        </ul>
+      </div>
+      <div class="note">
+        <h3>Before you pay</h3>
+        <ul>
+          <li>BabyBjörn bouncers are newborn-safe, but check the harness, the spring/frame and that the fabric seat is intact and freshly washed.</li>
+          <li>Ask for the date of purchase and whether it was stored dry — Singapore humidity is hard on the mesh.</li>
+          <li>Meet in a public place, inspect before paying, and prefer Carousell's in-app chat so the conversation is on record.</li>
+          <li>Prices are asking prices as displayed; several are negotiable (“Make Offer”).</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Snapshot taken 15 Nov 2026, ~12:40 SGT. Listings, prices and availability change quickly — always confirm on Carousell before travelling. Images belong to the respective sellers.
+  </div>
+</footer>
+
+<script>
+(() => {
+  const grid = document.getElementById('grid');
+  const cards = [...grid.querySelectorAll('.card')];
+  const q = document.getElementById('q');
+  const sort = document.getElementById('sort');
+  const meetup = document.getElementById('meetup');
+  const good = document.getElementById('good');
+  const count = document.getElementById('count');
+  const empty = document.getElementById('empty');
+
+  const apply = () => {
+    const term = q.value.trim().toLowerCase();
+    let shown = 0;
+    for (const c of cards) {
+      const text = c.innerText.toLowerCase();
+      let ok = !term || text.includes(term);
+      if (ok && meetup.checked) ok = c.dataset.meetup === '1';
+      if (ok && good.checked) ok = (c.dataset.cond === 'Like new' || c.dataset.cond === 'Brand new');
+      c.style.display = ok ? '' : 'none';
+      if (ok) shown++;
+    }
+    count.textContent = shown + ' of ' + cards.length + ' shown';
+    empty.style.display = shown ? 'none' : 'block';
+  };
+
+  const order = (mode) => {
+    const val = (c) => ({
+      score: -Number(c.dataset.score),
+      'price-asc': Number(c.dataset.price),
+      'price-desc': -Number(c.dataset.price),
+      age: Number(c.dataset.age),
+      cond: c.dataset.cond === 'Brand new' ? 0 : c.dataset.cond === 'Like new' ? 1 : c.dataset.cond === 'Lightly used' ? 2 : 3,
+    }[mode]);
+    cards.sort((a, b) => val(a) - val(b) || Number(a.dataset.price) - Number(b.dataset.price))
+      .forEach(c => grid.appendChild(c));
+  };
+
+  q.addEventListener('input', apply);
+  meetup.addEventListener('change', apply);
+  good.addEventListener('change', apply);
+  sort.addEventListener('change', () => { order(sort.value); apply(); });
+  apply();
+})();
+</script>
+</body>
+</html>
